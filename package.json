@@ -1,0 +1,15 @@
+{
+  "name": "@paul-fletes/czartificial-intelligence",
+  "version": "1.0.0",
+  "description": "Speak like Czarface using this library to prepend 'cz-' to any part of the string that starts with 'ar-'.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
