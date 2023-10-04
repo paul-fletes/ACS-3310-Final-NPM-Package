@@ -1,6 +1,6 @@
 import { makeCzar } from "./makeCzar";
 
-function generateRap(seedWord: string): string {
+export function generateRap(seedWord: string): string {
   if (seedWord.startsWith('ar')) {
     const rhymingWord: string = makeCzar(seedWord);
     return `I'm the czar, I goes hard; I be rhyming with a ${rhymingWord} 🎤`

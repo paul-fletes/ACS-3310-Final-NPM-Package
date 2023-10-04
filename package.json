@@ -4,12 +4,15 @@
   "description": "Speak like Czarface using this library to prepend 'cz-' to any part of the string that starts with 'ar-'.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --config jest.config.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/jest": "^29.5.5",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
     "typescript": "^5.2.2"
   }
 }
